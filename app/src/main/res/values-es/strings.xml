@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="txtAppName">Wireless Joystick</string>
+	
+    <string name="txtWriteIpMessage">Escriba la ip y el puerto de conexión de un joystick si va crear un cliente.</string>
+    <string name="editTextIpAddressHint">Dirección ip</string>
+    <string name="editTextPortHint">Puerto</string>
+    <string name="editTextIpAddress">192.168.1.2</string>
+    <string name="editTextPort">2</string>
+
+    <string name="joystickTypeClient">Joystick cliente</string>
+    <string name="joystickTypeServer">Joystick servidor</string>
+    <string name="joystickTypeLocal">Joystick local</string>
+
+    <string name="btnCreate">Crear</string>
+    <string name="btnConnect">Conectar</string>
+
+    <string name="noIpAddressMsg">Escriba una direción ip primero.</string>
+    <string name="noPortMsg">Escriba un puerto de conexión primero.</string>
+    <string name="invalidServerMsg">No es posible conectarse al servidor especificado.</string>
+    <string name="unknownErrorClientMsg">Ha ocurrido un error desconocido intente de nuevo.</string>
+
+    <string name="txtJoystickInfoClient">Cliente</string>
+    <string name="txtJoystickInfoServer">Servidor</string>
+    <string name="txtJoystickInfoLocal">Local</string>
+    <string name="txtJoystickInfoPort">Puerto</string>
+
+    <string name="btnBack">Desconectar</string>
+    <string name="msgComeBack">¿Está seguro que desea desconectarse del joystick remoto?</string>
+
+    <string name="errorTitle">Error</string>
+    <string name="errorMsg">No es posible conectarse al servidor.</string>
+	
+    <string name="txtClientConnected">Se ha conectado un cliente.</string>
+    <string name="txtClientDisconnected">Se ha desconectado el cliente.</string>
+</resources>

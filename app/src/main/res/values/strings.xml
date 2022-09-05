@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="txtAppName">Wireless Joystick</string>
+	
+    <string name="txtWriteIpMessage">Write an ip address and a connection port of a joystick if it will be a client.</string>
+    <string name="editTextIpAddressHint">Ip address</string>
+    <string name="editTextPortHint">Port</string>
+    <string name="editTextIpAddress">192.168.1.2</string>
+    <string name="editTextPort">2</string>
+
+    <string name="joystickTypeClient">Client Joystick</string>
+    <string name="joystickTypeServer">Server Joystick</string>
+    <string name="joystickTypeLocal">Local Joystick</string>
+
+    <string name="btnCreate">Create</string>
+    <string name="btnConnect">Connect</string>
+
+    <string name="noIpAddressMsg">Write an ip address first.</string>
+    <string name="noPortMsg">Write a connection port first.</string>
+    <string name="invalidServerMsg">Can´t connect with specified server.</string>
+    <string name="unknownErrorClientMsg">An unknown error occurred try again.</string>
+
+    <string name="txtJoystickInfoClient">Client</string>
+    <string name="txtJoystickInfoServer">Server</string>
+    <string name="txtJoystickInfoLocal">Local</string>
+    <string name="txtJoystickInfoPort">Port</string>
+
+    <string name="btnBack">Disconnect</string>
+    <string name="msgComeBack">Are you sure you want to disconnect from the remote joystick?</string>
+
+    <string name="errorTitle">Error</string>
+    <string name="errorMsg">Can´t connect with the server.</string>
+
+    <string name="txtClientConnected">An client has beeen connected.</string>
+    <string name="txtClientDisconnected">An client has beeen disconnected.</string>
+</resources>
