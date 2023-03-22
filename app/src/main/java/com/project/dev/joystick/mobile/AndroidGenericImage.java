@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {AndroidGenericImage} se encarga de realizar tareas específicas.
+ * @fileoverview    {AndroidGenericImage}
  *
  * @version         2.0
  *

@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {AndroidJoystickViewSetter} se encarga de realizar tareas específicas.
+ * @fileoverview    {AndroidJoystickViewSetter}
  *
  * @version         2.0
  *

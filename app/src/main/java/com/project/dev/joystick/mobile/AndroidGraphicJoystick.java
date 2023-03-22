@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {AndroidGraphicJoystick} se encarga de realizar tareas específicas.
+ * @fileoverview    {AndroidGraphicJoystick}
  *
  * @version         2.0
  *

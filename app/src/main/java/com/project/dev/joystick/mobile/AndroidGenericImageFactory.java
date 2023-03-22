@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {AndroidGenericImageFactory} se encarga de realizar tareas específicas.
+ * @fileoverview    {AndroidGenericImageFactory}
  *
  * @version         2.0
  *

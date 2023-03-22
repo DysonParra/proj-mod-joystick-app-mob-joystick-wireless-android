@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {JoystickActivity} se encarga de realizar tareas específicas.
+ * @fileoverview    {JoystickActivity}
  *
  * @version         2.0
  *
