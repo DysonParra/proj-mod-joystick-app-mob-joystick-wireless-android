@@ -47,7 +47,7 @@ import com.project.dev.joystick.mobile.AndroidJoystickViewSetter;
  * TODO: Definición de {@code JoystickActivity}.
  *
  * @author Dyson Parra
- * @since 1.8
+ * @since 11
  */
 public class JoystickActivity extends Activity {
 

@@ -30,7 +30,7 @@ import lombok.Data;
  * TODO: Definición de {@code AndroidGenericImage}.
  *
  * @author Dyson Parra
- * @since 1.8
+ * @since 11
  */
 //@AllArgsConstructor
 //@Builder

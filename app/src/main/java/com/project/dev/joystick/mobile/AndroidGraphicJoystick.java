@@ -33,7 +33,7 @@ import com.project.dev.joystick.name.generic.GenericJoystick;
  * TODO: Definición de {@code AndroidGraphicJoystick}.
  *
  * @author Dyson Parra
- * @since 1.8
+ * @since 11
  */
 public class AndroidGraphicJoystick extends RelativeLayout implements GraphicJoystick {
 

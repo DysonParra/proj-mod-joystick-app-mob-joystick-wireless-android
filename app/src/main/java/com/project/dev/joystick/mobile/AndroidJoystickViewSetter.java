@@ -47,7 +47,7 @@ import static com.project.dev.joystick.name.generic.GenericJoystick.JOYSTICK_TYP
  * TODO: Definición de {@code AndroidJoystickViewSetter}.
  *
  * @author Dyson Parra
- * @since 1.8
+ * @since 11
  */
 //@AllArgsConstructor
 //@Builder
