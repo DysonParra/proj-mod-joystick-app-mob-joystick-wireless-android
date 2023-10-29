@@ -44,7 +44,7 @@ import static com.project.dev.joystick.name.generic.GenericJoystick.JOYSTICK_TYP
 import com.project.dev.joystick.mobile.AndroidJoystickViewSetter;
 
 /**
- * TODO: Definición de {@code JoystickActivity}.
+ * TODO: Description of {@code JoystickActivity}.
  *
  * @author Dyson Parra
  * @since 11
@@ -121,7 +121,7 @@ public class JoystickActivity extends Activity {
     }
 
     /**
-     * FIXME: Definición de {@code startJoystick}. Inicializa el joystick con la información
+     * FIXME: Description of {@code startJoystick}. Inicializa el joystick con la información
      * obtenida del activity anterior.
      */
     private void startJoystick() {
@@ -203,7 +203,7 @@ public class JoystickActivity extends Activity {
     }
 
     /**
-     * FIXME: Definición de {@code onKeyDown}. Comportamiento del botón atrás.
+     * FIXME: Description of {@code onKeyDown}. Comportamiento del botón atrás.
      *
      * @param keyCode
      * @param event

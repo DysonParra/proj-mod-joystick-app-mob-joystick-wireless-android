@@ -22,7 +22,7 @@ import com.project.dev.joystick.graphic.GenericImage;
 import lombok.Data;
 
 /**
- * TODO: Definición de {@code AndroidGenericImageFactory}.
+ * TODO: Description of {@code AndroidGenericImageFactory}.
  *
  * @author Dyson Parra
  * @since 11
@@ -36,7 +36,7 @@ public class AndroidGenericImageFactory extends GenericImageAbstractFactory {
     private Context context = null;                                                 // Contexto de la fábrica de imágenes genéricas.
 
     /**
-     * TODO: Definición de {@code AndroidGenericImageFactory}.
+     * TODO: Description of {@code AndroidGenericImageFactory}.
      *
      * @param context es el contexto de la fábrica de imágenes genéricas.
      * @throws java.lang.Exception
@@ -46,7 +46,7 @@ public class AndroidGenericImageFactory extends GenericImageAbstractFactory {
     }
 
     /**
-     * FIXME: Definición de {@code makeGenericImage}. Fabrica una imagen genérica con solo la ruta.
+     * FIXME: Description of {@code makeGenericImage}. Fabrica una imagen genérica con solo la ruta.
      *
      * @param path es la ruta de la imagen.
      * @return una imagen genérica.

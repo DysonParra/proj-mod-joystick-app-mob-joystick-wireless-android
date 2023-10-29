@@ -27,7 +27,7 @@ import com.project.dev.joystick.graphic.GenericImage;
 import lombok.Data;
 
 /**
- * TODO: Definición de {@code AndroidGenericImage}.
+ * TODO: Description of {@code AndroidGenericImage}.
  *
  * @author Dyson Parra
  * @since 11
@@ -41,7 +41,7 @@ public class AndroidGenericImage extends GenericImage {
     private Context context = null;                                                 // Contexto de la imagen.
 
     /**
-     * TODO: Definición de {@code AndroidGenericImage}.
+     * TODO: Description of {@code AndroidGenericImage}.
      *
      * @param context es el contexto donde se creará la imagen.
      * @param path    es la ruta de la imagen.
@@ -54,7 +54,7 @@ public class AndroidGenericImage extends GenericImage {
     }
 
     /**
-     * FIXME: Definición de {@code pathChanged}. Invocado cuando cambia la ruta de la imagen.
+     * FIXME: Description of {@code pathChanged}. Invocado cuando cambia la ruta de la imagen.
      *
      * @throws java.lang.Exception
      */
@@ -69,7 +69,7 @@ public class AndroidGenericImage extends GenericImage {
     }
 
     /**
-     * FIXME: Definición de {@code onPathChange}. Invocado cuando se cambia la ruta de la imagen
+     * FIXME: Description of {@code onPathChange}. Invocado cuando se cambia la ruta de la imagen
      * genérica.
      *
      * @throws Exception
@@ -80,7 +80,7 @@ public class AndroidGenericImage extends GenericImage {
     }
 
     /**
-     * FIXME: Definición de {@code onWidthChange}. Invocado cuando se cambia el ancho de la imagen
+     * FIXME: Description of {@code onWidthChange}. Invocado cuando se cambia el ancho de la imagen
      * genérica.
      */
     @Override
@@ -89,7 +89,7 @@ public class AndroidGenericImage extends GenericImage {
     }
 
     /**
-     * FIXME: Definición de {@code onHeightChange}. Invocado cuando se cambia el lto de la imagen
+     * FIXME: Description of {@code onHeightChange}. Invocado cuando se cambia el lto de la imagen
      * genérica.
      */
     @Override
@@ -98,7 +98,7 @@ public class AndroidGenericImage extends GenericImage {
     }
 
     /**
-     * FIXME: Definición de {@code onPositionXChange}. Invocado cuando se cambian las coordenadas en
+     * FIXME: Description of {@code onPositionXChange}. Invocado cuando se cambian las coordenadas en
      * X de la imagen genérica.
      */
     @Override
@@ -107,7 +107,7 @@ public class AndroidGenericImage extends GenericImage {
     }
 
     /**
-     * FIXME: Definición de {@code onPositionYChange}. Invocado cuando se cambian las coordenadas en
+     * FIXME: Description of {@code onPositionYChange}. Invocado cuando se cambian las coordenadas en
      * Y de la imagen genérica.
      */
     @Override

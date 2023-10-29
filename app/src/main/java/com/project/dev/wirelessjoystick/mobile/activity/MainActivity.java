@@ -38,7 +38,7 @@ import static com.project.dev.joystick.name.generic.GenericJoystick.JOYSTICK_TYP
 import static com.project.dev.joystick.name.generic.GenericJoystick.JOYSTICK_TYPE_SERVER;
 
 /**
- * TODO: Definición de {@code MainActivity}.
+ * TODO: Description of {@code MainActivity}.
  *
  * @author Dyson Parra
  * @since 11
@@ -214,7 +214,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * FIXME: Definición de {@code startJoystickActivity}. Inicia el frame con el joystick.
+     * FIXME: Description of {@code startJoystickActivity}. Inicia el frame con el joystick.
      *
      * @param joystickType es el tipo de joystick que se creará (Local, cliente o servidor).
      * @param joystickName es el nombre del joystick que se creará.

@@ -44,7 +44,7 @@ import static com.project.dev.joystick.name.generic.GenericJoystick.JOYSTICK_TYP
 import static com.project.dev.joystick.name.generic.GenericJoystick.JOYSTICK_TYPE_SERVER;
 
 /**
- * TODO: Definición de {@code AndroidJoystickViewSetter}.
+ * TODO: Description of {@code AndroidJoystickViewSetter}.
  *
  * @author Dyson Parra
  * @since 11
@@ -59,7 +59,7 @@ public class AndroidJoystickViewSetter extends JoystickViewSetter<ViewGroup> {
     private int with = 0;
 
     /**
-     * FIXME: Definición de {@code AndroidJoystickViewSetter}.
+     * FIXME: Description of {@code AndroidJoystickViewSetter}.
      *
      * @param context es el contexto donde se agregara la vista.
      * @param view    es la vista donde se agregará el joystick.
@@ -70,7 +70,7 @@ public class AndroidJoystickViewSetter extends JoystickViewSetter<ViewGroup> {
     }
 
     /**
-     * FIXME: Definición de {@code addJoystickToView}. Agrega el joystick actual a la vista.
+     * FIXME: Description of {@code addJoystickToView}. Agrega el joystick actual a la vista.
      *
      * @param joystick      es el joystick que se agregará a la vista.
      * @param graphicSetter es quien dirá cuales botones tendrá el joystick.
@@ -134,7 +134,7 @@ public class AndroidJoystickViewSetter extends JoystickViewSetter<ViewGroup> {
     }
 
     /**
-     * FIXME: Definición de {@code getIpAddress}. Obtiene la dirección ip del dispositivo.
+     * FIXME: Description of {@code getIpAddress}. Obtiene la dirección ip del dispositivo.
      *
      * @return
      */
