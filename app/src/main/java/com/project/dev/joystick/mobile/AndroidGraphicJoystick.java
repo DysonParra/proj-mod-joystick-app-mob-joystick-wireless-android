@@ -39,7 +39,7 @@ public class AndroidGraphicJoystick extends RelativeLayout implements GraphicJoy
 
     private RelativeLayout.LayoutParams params = new RelativeLayout.LayoutParams(0, 0);
 
-    private final Activity actualContext;
+    private final Activity currentContext;
     private int width;                                                                              // Ancho del joystick.
     private int height;                                                                             // Alto del joystick.
 
@@ -68,7 +68,7 @@ public class AndroidGraphicJoystick extends RelativeLayout implements GraphicJoy
     public AndroidGraphicJoystick(Context context, GenericJoystick genericJoystick) throws Exception {
         super(context);
 
-        this.actualContext = (Activity) context;
+        this.currentContext = (Activity) context;
         joystick = genericJoystick;                                                                 // Obtiene el joystick parámetro.
         joystickButtons = joystick.getButtons();
 
@@ -101,7 +101,7 @@ public class AndroidGraphicJoystick extends RelativeLayout implements GraphicJoy
 
             if (!joystick.getType().equals(GenericJoystick.JOYSTICK_TYPE_SERVER)) {                  // Si el joystick no es un servidor.
                 buttonComponet.setOnTouchListener(new OnTouchListener() {
-                    final GenericButton actualButton = button;
+                    final GenericButton currentButton = button;
 
                     @Override
                     public boolean onTouch(View view, MotionEvent event) {
@@ -109,9 +109,9 @@ public class AndroidGraphicJoystick extends RelativeLayout implements GraphicJoy
                                  * -
                                  * || event.getAction() == MotionEvent.ACTION_MOVE
                                  */)
-                            actualButton.touchButton();
+                            currentButton.touchButton();
                         else if (event.getAction() == MotionEvent.ACTION_UP || event.getAction() == MotionEvent.ACTION_CANCEL)
-                            actualButton.unTouchButton();
+                            currentButton.unTouchButton();
                         return true;
                     }
                 });
@@ -121,7 +121,7 @@ public class AndroidGraphicJoystick extends RelativeLayout implements GraphicJoy
 
                 @Override
                 public void onButtonStateChanged(byte newState, final GenericImage newImage) {
-                    actualContext.runOnUiThread(new Runnable() {
+                    currentContext.runOnUiThread(new Runnable() {
                         public void run() {
                             try {
                                 if (newImage != null) {
