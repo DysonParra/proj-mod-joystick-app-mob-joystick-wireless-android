@@ -47,7 +47,7 @@ import com.project.dev.joystick.mobile.AndroidJoystickViewSetter;
  * TODO: Description of {@code JoystickActivity}.
  *
  * @author Dyson Parra
- * @since 11
+ * @since Java 17 (LTS), Gradle 7.3
  */
 public class JoystickActivity extends Activity {
 
