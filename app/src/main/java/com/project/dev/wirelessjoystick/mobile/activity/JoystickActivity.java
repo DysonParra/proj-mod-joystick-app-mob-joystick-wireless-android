@@ -75,7 +75,7 @@ public class JoystickActivity extends Activity {
     private Intent mainActivity;                                        // usada para iniciar el activity principal.
 
     /**
-     * Invocado cuando se crea el activity.
+     * FIXME: Description of {@code onCreate}. Invocado cuando se crea el activity.
      *
      * @param savedInstanceState
      */
@@ -123,6 +123,7 @@ public class JoystickActivity extends Activity {
     /**
      * FIXME: Description of {@code startJoystick}. Inicializa el joystick con la información
      * obtenida del activity anterior.
+     *
      */
     private void startJoystick() {
         AndroidJoystickViewSetter viewSetter = new AndroidJoystickViewSetter(this, scrollView);

@@ -219,6 +219,7 @@ public class AndroidGraphicJoystick extends RelativeLayout implements GraphicJoy
     /**
      * FIXME: Description of {@code onJoystickScale}. Invocado cuando el joystick escala sus
      * dimensiones.
+     *
      */
     @Override
     public void onJoystickScale() {

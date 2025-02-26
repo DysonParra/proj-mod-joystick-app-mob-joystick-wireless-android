@@ -82,6 +82,7 @@ public class AndroidGenericImage extends GenericImage {
     /**
      * FIXME: Description of {@code onWidthChange}. Invocado cuando se cambia el ancho de la imagen
      * genérica.
+     *
      */
     @Override
     public void onWidthChange() {
@@ -91,6 +92,7 @@ public class AndroidGenericImage extends GenericImage {
     /**
      * FIXME: Description of {@code onHeightChange}. Invocado cuando se cambia el lto de la imagen
      * genérica.
+     *
      */
     @Override
     public void onHeightChange() {
@@ -100,6 +102,7 @@ public class AndroidGenericImage extends GenericImage {
     /**
      * FIXME: Description of {@code onPositionXChange}. Invocado cuando se cambian las coordenadas en
      * X de la imagen genérica.
+     *
      */
     @Override
     public void onPositionXChange() {
@@ -109,6 +112,7 @@ public class AndroidGenericImage extends GenericImage {
     /**
      * FIXME: Description of {@code onPositionYChange}. Invocado cuando se cambian las coordenadas en
      * Y de la imagen genérica.
+     *
      */
     @Override
     public void onPositionYChange() {
