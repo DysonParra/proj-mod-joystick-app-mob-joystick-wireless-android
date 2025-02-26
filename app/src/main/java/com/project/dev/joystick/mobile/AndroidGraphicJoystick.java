@@ -58,7 +58,7 @@ public class AndroidGraphicJoystick extends RelativeLayout implements GraphicJoy
     private ImageView buttonComponet;                                                               // Cada botón que irá como componente de la vista.
 
     /**
-     * TODO: Description of {@code AndroidGraphicJoystick}.
+     * TODO: Description of method {@code AndroidGraphicJoystick}.
      *
      * @param context         es el contexto donde se creará el RelativeLayout.
      * @param genericJoystick es el joystick que tendrá el RelativeLayout.
@@ -151,7 +151,7 @@ public class AndroidGraphicJoystick extends RelativeLayout implements GraphicJoy
     }
 
     /**
-     * FIXME: Description of {@code getJoystick}. Obtiene el joystick del joystick gráfico.
+     * FIXME: Description of method {@code getJoystick}. Obtiene el joystick del joystick gráfico.
      *
      * @return es el joystick del gráfico.
      */
@@ -161,7 +161,7 @@ public class AndroidGraphicJoystick extends RelativeLayout implements GraphicJoy
     }
 
     /**
-     * FIXME: Description of {@code getJoystickWidth}. Obtiene ancho del joystick asociado al
+     * FIXME: Description of method {@code getJoystickWidth}. Obtiene ancho del joystick asociado al
      * joystick gráfico.
      *
      * @return el ancho del joystick gráfico.
@@ -171,7 +171,7 @@ public class AndroidGraphicJoystick extends RelativeLayout implements GraphicJoy
     }
 
     /**
-     * FIXME: Description of {@code getJoystickHeight}. Obtiene el alto del joystick asociado al
+     * FIXME: Description of method {@code getJoystickHeight}. Obtiene el alto del joystick asociado al
      * joystick gráfico.
      *
      * @return el alto del joystick gráfico.
@@ -181,7 +181,7 @@ public class AndroidGraphicJoystick extends RelativeLayout implements GraphicJoy
     }
 
     /**
-     * TODO: Description of {@code getLeftMargin}.
+     * TODO: Description of method {@code getLeftMargin}.
      *
      * @return
      */
@@ -190,7 +190,7 @@ public class AndroidGraphicJoystick extends RelativeLayout implements GraphicJoy
     }
 
     /**
-     * TODO: Description of {@code setLeftMargin}.
+     * TODO: Description of method {@code setLeftMargin}.
      *
      * @param leftMargin
      */
@@ -199,7 +199,7 @@ public class AndroidGraphicJoystick extends RelativeLayout implements GraphicJoy
     }
 
     /**
-     * TODO: Description of {@code getTopMargin}.
+     * TODO: Description of method {@code getTopMargin}.
      *
      * @return
      */
@@ -208,7 +208,7 @@ public class AndroidGraphicJoystick extends RelativeLayout implements GraphicJoy
     }
 
     /**
-     * TODO: Description of {@code setTopMargin}.
+     * TODO: Description of method {@code setTopMargin}.
      *
      * @param topMargin
      */
@@ -217,7 +217,7 @@ public class AndroidGraphicJoystick extends RelativeLayout implements GraphicJoy
     }
 
     /**
-     * FIXME: Description of {@code onJoystickScale}. Invocado cuando el joystick escala sus
+     * FIXME: Description of method {@code onJoystickScale}. Invocado cuando el joystick escala sus
      * dimensiones.
      *
      */
@@ -233,7 +233,7 @@ public class AndroidGraphicJoystick extends RelativeLayout implements GraphicJoy
     }
 
     /**
-     * FIXME: Description of {@code scaleJoystick}. Cambia la resolución de las imágenes de los
+     * FIXME: Description of method {@code scaleJoystick}. Cambia la resolución de las imágenes de los
      * botones y el joystick.
      *
      * @param percent es el porcentaje de escalado del joystick.
@@ -244,7 +244,7 @@ public class AndroidGraphicJoystick extends RelativeLayout implements GraphicJoy
     }
 
     /**
-     * FIXME: Description of {@code scaleJoystickWidth}. Cambia la resolución de las imágenes de los
+     * FIXME: Description of method {@code scaleJoystickWidth}. Cambia la resolución de las imágenes de los
      * botones y el joystick.
      *
      * @param newWidth es el nuevo ancho del joystick.
@@ -256,7 +256,7 @@ public class AndroidGraphicJoystick extends RelativeLayout implements GraphicJoy
     }
 
     /**
-     * FIXME: Description of {@code scaleJoystickHeight}. Cambia la resolución de las imágenes de los
+     * FIXME: Description of method {@code scaleJoystickHeight}. Cambia la resolución de las imágenes de los
      * botones y el joystick.
      *
      * @param newHeight es el nuevo alto del joystick.

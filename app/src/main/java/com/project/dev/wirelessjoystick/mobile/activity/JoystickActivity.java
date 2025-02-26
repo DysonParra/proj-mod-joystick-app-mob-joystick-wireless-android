@@ -75,7 +75,7 @@ public class JoystickActivity extends Activity {
     private Intent mainActivity;                                        // usada para iniciar el activity principal.
 
     /**
-     * FIXME: Description of {@code onCreate}. Invocado cuando se crea el activity.
+     * FIXME: Description of method {@code onCreate}. Invocado cuando se crea el activity.
      *
      * @param savedInstanceState
      */
@@ -121,7 +121,7 @@ public class JoystickActivity extends Activity {
     }
 
     /**
-     * FIXME: Description of {@code startJoystick}. Inicializa el joystick con la información
+     * FIXME: Description of method {@code startJoystick}. Inicializa el joystick con la información
      * obtenida del activity anterior.
      *
      */
@@ -204,7 +204,7 @@ public class JoystickActivity extends Activity {
     }
 
     /**
-     * FIXME: Description of {@code onKeyDown}. Comportamiento del botón atrás.
+     * FIXME: Description of method {@code onKeyDown}. Comportamiento del botón atrás.
      *
      * @param keyCode
      * @param event

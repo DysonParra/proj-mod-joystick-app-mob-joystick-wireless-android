@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
     };
 
     /**
-     * FIXME: Description of {@code onCreate}. Invocado cuando se crea el activity.
+     * FIXME: Description of method {@code onCreate}. Invocado cuando se crea el activity.
      *
      * @param savedInstanceState
      */
@@ -214,7 +214,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * FIXME: Description of {@code startJoystickActivity}. Inicia el frame con el joystick.
+     * FIXME: Description of method {@code startJoystickActivity}. Inicia el frame con el joystick.
      *
      * @param joystickType es el tipo de joystick que se creará (Local, cliente o servidor).
      * @param joystickName es el nombre del joystick que se creará.

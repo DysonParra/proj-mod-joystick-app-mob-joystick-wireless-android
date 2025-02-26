@@ -36,7 +36,7 @@ public class AndroidGenericImageFactory extends GenericImageAbstractFactory {
     private Context context = null;                                                 // Contexto de la fábrica de imágenes genéricas.
 
     /**
-     * TODO: Description of {@code AndroidGenericImageFactory}.
+     * TODO: Description of method {@code AndroidGenericImageFactory}.
      *
      * @param context es el contexto de la fábrica de imágenes genéricas.
      * @throws java.lang.Exception
@@ -46,7 +46,7 @@ public class AndroidGenericImageFactory extends GenericImageAbstractFactory {
     }
 
     /**
-     * FIXME: Description of {@code makeGenericImage}. Fabrica una imagen genérica con solo la ruta.
+     * FIXME: Description of method {@code makeGenericImage}. Fabrica una imagen genérica con solo la ruta.
      *
      * @param path es la ruta de la imagen.
      * @return una imagen genérica.
