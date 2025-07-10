@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {AndroidGenericImageFactory}
+ * @overview        {AndroidGenericImageFactory}
  *
  * @version         2.0
  *

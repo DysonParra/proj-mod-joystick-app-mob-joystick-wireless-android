@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {AndroidJoystickViewSetter}
+ * @overview        {AndroidJoystickViewSetter}
  *
  * @version         2.0
  *

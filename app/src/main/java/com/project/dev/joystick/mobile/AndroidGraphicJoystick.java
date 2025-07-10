@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {AndroidGraphicJoystick}
+ * @overview        {AndroidGraphicJoystick}
  *
  * @version         2.0
  *

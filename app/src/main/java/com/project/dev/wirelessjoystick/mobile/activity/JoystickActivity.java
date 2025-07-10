@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {JoystickActivity}
+ * @overview        {JoystickActivity}
  *
  * @version         2.0
  *
